@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+    <title>Guess my number</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="top-header-guess">
+                <h1>Guess my number</h1>
+            </div>
+            <div class="game">
+                <div class="number">0</div>
+                <div class="input">
+                    <input placeholder="Enter a number" type="number" id="typeNumber">
+                </div>
+                <div class="button-roll">
+                    <button class="btn-roll-number">
+                        Start
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal-cons">
+        <div class="modal-cons-contents">
+            <h1>Congratulations</h1>
+            <h1>YOU WON</h1>
+            <button class="reset">
+                <svg width="40" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg></button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
